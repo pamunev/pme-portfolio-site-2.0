@@ -1,0 +1,7 @@
+/* 
+0.5. Banner section with buttons for sections?
+1. About section
+2. Code section
+3. Other interests section
+4. Footer with contact info
+*/
