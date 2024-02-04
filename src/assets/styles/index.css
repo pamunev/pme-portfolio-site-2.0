@@ -9,3 +9,11 @@
     display: flex;
     flex-direction: column;
 }
+
+.app-codeSection {
+    display: flex;
+}
+
+.button {
+    cursor: pointer;
+}
