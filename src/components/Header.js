@@ -14,7 +14,7 @@ function Header() {
     <header className="app-header">
       <h3>Pablo Munoz-Evers | Software Developer</h3>
       <div>
-        <ul>
+        <ul className="app-navigation">
           <li>
             <Button
               text="About"
@@ -22,8 +22,20 @@ function Header() {
               onClick={(event) => handleClick(event)}
             />
           </li>
-          <li>Code</li>
-          <li>Other Interests</li>
+          <li>
+            <Button
+              text="Code"
+              sectionId="code"
+              onClick={(event) => handleClick(event)}
+            />
+          </li>
+          <li>
+            <Button
+              text="Other Interests"
+              sectionId="other-interests"
+              onClick={(event) => handleClick(event)}
+            />
+          </li>
         </ul>
       </div>
     </header>

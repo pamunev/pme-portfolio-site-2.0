@@ -8,12 +8,53 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-color: #65B0FA;
 }
 
 .app-codeSection {
     display: flex;
 }
 
+.app-navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
 .button {
     cursor: pointer;
+    margin-right: 35px;
+    border: 2px dotted #151617;
+    padding: 10px 15px;
+    
+}
+
+.button:hover {
+    background-color: green;
+    
+}
+
+.background {
+    background-color: red;
+}
+
+.content-section {
+    min-height: 60vh;
+    background-color: #4BFEBA;
+}
+
+.content-header
+
+.content-body
+
+.contet-flex-container
+
+
+@media all and (min-width: 800px) {
+    .background {
+        background-color: blue;
+    }
 }
