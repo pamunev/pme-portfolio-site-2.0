@@ -6,7 +6,7 @@ function Header() {
     event.preventDefault();
     const section = document.querySelector(`#section-${event.target.id}`);
     if (section) {
-      section.scrollIntoView();
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
