@@ -32,7 +32,7 @@
 .button {
     cursor: pointer;
     margin-right: 35px;
-    border: 2px dotted #151617;
+    border: 2px solid #151617;
     border-width: 4px;
     padding: 10px 15px;
 
@@ -46,6 +46,10 @@
 
 .background {
     background-color: red;
+}
+
+.bio-paragraph {
+    width: 100%;
 }
 
 .content-section {
@@ -78,5 +82,9 @@
 @media all and (min-width: 800px) {
     .background {
         background-color: blue;
+    }
+
+    .bio-paragraph {
+        width: 60%;
     }
 }
