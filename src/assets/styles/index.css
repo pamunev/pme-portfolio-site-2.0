@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import '@fontsource/titillium-web';
+@import "@fontsource/merriweather";
 
 /* Global styles */
 
 .App {
     background-color: #65B0FA;
+    font-family: Merriweather, Inter;
 }
 
 .app-header {
@@ -12,6 +15,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    font-size: 26px;
     
 }
 
@@ -25,7 +29,8 @@
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    font-size: 20px;
 }
 
 
@@ -35,8 +40,6 @@
     border: 2px solid #151617;
     border-width: 4px;
     padding: 10px 15px;
-
-    
 }
 
 .button:hover {
@@ -61,10 +64,14 @@
     padding: 40px 0 30px 0;
     font-weight: 700;
     font-size: 24px;
+    font-family: Inter;
 }
 
 .content-body {
     padding: 0 12% 12%;
+    font-family: Inter;
+    font-size: 22px;
+    text-align: left;
 }
 
 .content-flex-container {
