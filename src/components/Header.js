@@ -29,13 +29,6 @@ function Header() {
               onClick={(event) => handleClick(event)}
             />
           </li>
-          <li>
-            <Button
-              text="Other Interests"
-              sectionId="other-interests"
-              onClick={(event) => handleClick(event)}
-            />
-          </li>
         </ul>
       </div>
     </header>
