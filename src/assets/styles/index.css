@@ -5,8 +5,9 @@
 /* Global styles */
 
 .App {
-    background-color: #65B0FA;
+    background-color: #49A078;
     font-family: Merriweather, Inter;
+    color: #1F2421;
 }
 
 .app-header {
@@ -43,7 +44,8 @@
 }
 
 .button:hover {
-    background-color: green;
+    background-color: #216869;
+    color: #DCE1DE
     
 }
 
@@ -57,7 +59,7 @@
 
 .content-section {
     min-height: 60vh;
-    background-color: #4BFEBA;
+    background-color: #9CC5A1;
 }
 
 .content-header {
@@ -68,7 +70,7 @@
 }
 
 .content-body {
-    padding: 0 12% 12%;
+    padding: 0 12% 5%;
     font-family: Inter;
     font-size: 22px;
     text-align: left;
@@ -82,13 +84,13 @@
 }
 
 .alternate-section-background {
-    background-color: #65B0FA;
+    background-color: #49A078;
 }
 
 .footer-container {
     text-align: center;
-    background-color: #104534;
-    color: white;
+    background-color: #216869;
+    color: #DCE1DE;
     padding: 18px;
 }
 
