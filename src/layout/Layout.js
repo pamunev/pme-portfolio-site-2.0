@@ -8,7 +8,6 @@
 import React from "react";
 import AboutSection from "../components/AboutSection";
 import CodeSection from "../components/CodeSection";
-import OtherInterestsSection from "../components/OtherInterestsSection";
 
 // Components
 
@@ -17,7 +16,6 @@ function Layout() {
     <div>
       <AboutSection />
       <CodeSection />
-      <OtherInterestsSection />
     </div>
   );
 }

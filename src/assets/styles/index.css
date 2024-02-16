@@ -78,6 +78,18 @@
     background-color: #65B0FA;
 }
 
+.footer-container {
+    text-align: center;
+    background-color: #104534;
+    color: white;
+    padding: 18px;
+}
+
+.footer-container div {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
 
 @media all and (min-width: 800px) {
     .background {
