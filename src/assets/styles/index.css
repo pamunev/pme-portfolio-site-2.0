@@ -34,6 +34,21 @@
     font-size: 14px;
 }
 
+a {
+    /*color: #68279B;
+    color: #75040C;*/
+    color: #750431;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F50665;
+}
+
+hr {
+    width: 10%;
+}
 
 .button {
     cursor: pointer;
@@ -98,6 +113,16 @@
 .footer-container div {
     font-size: 14px;
     padding-bottom: 10px;
+}
+
+.footer-container a {
+    display: inline-block;
+}
+
+.footer-container img {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
 }
 
 .profile-pic {
