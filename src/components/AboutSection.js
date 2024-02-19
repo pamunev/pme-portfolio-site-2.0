@@ -1,4 +1,6 @@
 import React from "react";
+import pme from "../assets/images/pablo-profile-pic-resized.jpg";
+import resume from "../assets/images/pablo-munoz-evers-resume-february-2024.pdf";
 
 function AboutSection() {
   return (
@@ -6,12 +8,15 @@ function AboutSection() {
       <div className="content-header">About</div>
       <div className="content-body">
         <div className="content-flex-container">
+          <img src={pme} alt="Pablo" className="profile-pic" />
+
           <p className="bio-paragraph">
-            I’m a <b>full-stack software developer</b> living in the beautiful,
-            blazing hot city of Austin, Texas. Aside from my proficiency in
-            full-stack web development (<b>React, Node.js</b>, etc.), I’ve also
-            developed strong skills in collaboration, communication, and
-            quality, customer-centered product creation through a successful and
+            I’m a <strong>full-stack software developer</strong> living in the
+            beautiful, blazing hot city of Austin, Texas. Aside from my
+            proficiency in full-stack web development (
+            <strong>React, Node.js</strong>, etc.), I’ve also developed strong
+            skills in collaboration, communication, and quality,
+            customer-centered product creation through a successful and
             dedicated career in education and social media marketing. I am also
             active in the Austin theatre scene as an actor and a playwright.
             <br />
@@ -26,7 +31,11 @@ function AboutSection() {
             Currently, I am <b>available for hire or freelance work</b>. For
             inquiries regarding web development,{" "}
             <a href="mailto:pamunev@gmail.com">shoot me an email</a>. My resume
-            is available <b>here</b>.
+            is available{" "}
+            <a href={resume} target="_blank" rel="noreferrer">
+              here
+            </a>
+            .
           </p>
         </div>
       </div>

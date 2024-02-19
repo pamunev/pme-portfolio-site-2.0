@@ -81,6 +81,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .alternate-section-background {
@@ -97,6 +98,10 @@
 .footer-container div {
     font-size: 14px;
     padding-bottom: 10px;
+}
+
+.profile-pic {
+    width: 100%;
 }
 
 
@@ -119,5 +124,12 @@
 
     .button {
         border-width: 4px;
+    }
+
+    .profile-pic {
+        width: 38%;
+        height: 38%;
+        
+    
     }
 }
