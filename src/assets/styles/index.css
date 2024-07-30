@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "@fontsource/titillium-web";
-@import "@fontsource/merriweather";
 
 /* Global styles */
 
 .App {
   background-color: #49a078;
-  font-family: Merriweather, Inter;
+
   color: #1f2421;
 }
 
@@ -17,6 +16,10 @@
   display: flex;
   flex-direction: column;
   font-size: 18px;
+}
+
+.app-header h3 {
+  font-family: "Merriweather", "Times New Roman", Inter, serif;
 }
 
 .app-codeSection {
@@ -55,6 +58,7 @@ hr {
   border: 2px solid #151617;
   border-width: 3px;
   padding: 10px 15px;
+  font-family: "Merriweather", "Times New Roman", Inter, serif;
 }
 
 .button:hover {
