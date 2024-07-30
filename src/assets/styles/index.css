@@ -1,161 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import '@fontsource/titillium-web';
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "@fontsource/titillium-web";
 @import "@fontsource/merriweather";
 
 /* Global styles */
 
 .App {
-    background-color: #49A078;
-    font-family: Merriweather, Inter;
-    color: #1F2421;
-    
+  background-color: #49a078;
+  font-family: Merriweather, Inter;
+  color: #1f2421;
 }
 
 .app-header {
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
 }
 
 .app-codeSection {
-    display: flex;
+  display: flex;
 }
 
 .app-navigation {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
 }
 
 a {
-    /*color: #68279B;
+  /*color: #68279B;
     color: #75040C;*/
-    color: #750431;
-    text-decoration: none;
-    font-weight: bold;
+  color: #750431;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-    color: #F50665;
+  color: #f50665;
 }
 
 hr {
-    width: 10%;
+  width: 10%;
 }
 
 .button {
-    cursor: pointer;
-    margin-right: 35px;
-    border: 2px solid #151617;
-    border-width: 3px;
-    padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 35px;
+  border: 2px solid #151617;
+  border-width: 3px;
+  padding: 10px 15px;
 }
 
 .button:hover {
-    background-color: #216869;
-    color: #DCE1DE
-    
+  background-color: #216869;
+  color: #dce1de;
 }
 
 .background {
-    background-color: red;
+  background-color: red;
 }
 
 .bio-paragraph {
-    width: 100%;
+  width: 100%;
+}
+
+.code-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.code-item img {
+  width: 100%;
+  height: auto;
+  margin-right: 1rem;
 }
 
 .content-section {
-    min-height: 60vh;
-    background-color: #9CC5A1;
+  min-height: 60vh;
+  background-color: #9cc5a1;
 }
 
 .content-header {
-    padding: 40px 0 30px 0;
-    font-weight: 700;
-    font-size: 28px;
-    font-family: Inter;
+  padding: 40px 0 30px 0;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: Inter;
 }
 
 .content-body {
-    padding: 0 12% 5%;
-    font-family: Inter;
-    font-size: 22px;
-    text-align: left;
+  padding: 0 12% 5%;
+  font-family: Inter;
+  font-size: 22px;
+  text-align: left;
 }
 
 .content-flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .alternate-section-background {
-    background-color: #49A078;
+  background-color: #49a078;
 }
 
 .footer-container {
-    text-align: center;
-    background-color: #216869;
-    color: #DCE1DE;
-    padding: 18px;
+  text-align: center;
+  background-color: #216869;
+  color: #dce1de;
+  padding: 18px;
 }
 
 .footer-container div {
-    font-size: 14px;
-    padding-bottom: 10px;
+  font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .footer-container a {
-    display: inline-block;
+  display: inline-block;
 }
 
 .footer-container img {
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
 }
 
 .profile-pic {
-    width: 100%;
+  width: 100%;
 }
 
+/*-----Media query for desktop-----*/
 
-@media all and (min-width: 800px) {
-    .app-header {
-        font-size: 26px;
-    }
+@media all and (min-width: 708px) {
+  .app-header {
+    font-size: 26px;
+  }
 
-    .app-navigation {
-        font-size: 20px;
-    }
-    
-    .background {
-        background-color: blue;
-    }
+  .app-navigation {
+    font-size: 20px;
+  }
 
-    .bio-paragraph {
-        width: 60%;
-    }
+  .background {
+    background-color: blue;
+  }
 
-    .button {
-        border-width: 4px;
-    }
+  .bio-paragraph {
+    width: 60%;
+  }
 
-    .profile-pic {
-        width: 38%;
-        height: 38%;
-        
-    
-    }
+  .button {
+    border-width: 4px;
+  }
+
+  .code-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: none;
+  }
+
+  .code-item img {
+    width: 30%;
+    height: auto;
+    margin-right: 1rem;
+  }
+
+  .profile-pic {
+    width: 38%;
+    height: 38%;
+  }
 }
