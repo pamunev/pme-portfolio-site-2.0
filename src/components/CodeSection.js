@@ -120,7 +120,7 @@ function CodeSection() {
               , and here's the{" "}
               <a
                 href="https://patient-data-dashboard-pamunev.vercel.app/"
-                target="blank"
+                target="_blank"
                 rel="noreferrer"
               >
                 deployed
