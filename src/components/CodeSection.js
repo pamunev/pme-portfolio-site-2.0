@@ -1,5 +1,5 @@
 import React from "react";
-import therapistSite from "../assets/images/therapist-website-screenshot.png";
+import therapistSite from "../assets/images/therapist-website-screenshot-2.png";
 import periodicTables from "../assets/images/periodic-tables-screenshot.png";
 import weLoveMovies from "../assets/images/WeLoveMovies-screenshot.png";
 import patientDashboard from "../assets/images/patient-dashboard-screenshot.png";
