@@ -4,6 +4,12 @@ import periodicTables from "../assets/images/periodic-tables-screenshot.png";
 import weLoveMovies from "../assets/images/WeLoveMovies-screenshot.png";
 import patientDashboard from "../assets/images/patient-dashboard-screenshot.png";
 
+// Reusable click handler for thumbnail clicks. Work in progress.
+const handleClickThumbnail = (event) => {
+  event.preventDefault();
+  window.open("https://margot-therapist-website.vercel.app/", "_blank");
+};
+
 function CodeSection() {
   return (
     <div
@@ -13,7 +19,16 @@ function CodeSection() {
       <div className="content-header">Code</div>
       <div className="content-body">
         <div className="code-item">
-          <img src={therapistSite} />
+          <img
+            src={therapistSite}
+            onClick={() =>
+              window.open(
+                "https://margot-therapist-website.vercel.app/",
+                "_blank"
+              )
+            }
+            style={{ cursor: "pointer" }}
+          />
 
           <p>
             I designed and developed this responsive{" "}
@@ -38,7 +53,17 @@ function CodeSection() {
           </p>
         </div>
         <div className="code-item">
-          <img src={periodicTables} />
+          <img
+            src={periodicTables}
+            onClick={() =>
+              window.open(
+                "https://periodic-tables-pamunev.vercel.app/",
+                "_blank"
+              )
+            }
+            style={{ cursor: "pointer" }}
+            rel="noreferrer"
+          />
           <div className="code-item-content">
             <p>
               <a
@@ -71,7 +96,14 @@ function CodeSection() {
           </div>
         </div>
         <div className="code-item">
-          <img src={weLoveMovies} />
+          <img
+            src={weLoveMovies}
+            onClick={() =>
+              window.open("https://welovemoviespamunev.vercel.app/", "_blank")
+            }
+            style={{ cursor: "pointer" }}
+            rel="noreferrer"
+          />
           <div className="code-item-content">
             <p>
               <a
@@ -104,7 +136,17 @@ function CodeSection() {
           </div>
         </div>
         <div className="code-item">
-          <img src={patientDashboard} />
+          <img
+            src={patientDashboard}
+            onClick={() =>
+              window.open(
+                "https://patient-data-dashboard-pamunev.vercel.app/",
+                "_blank"
+              )
+            }
+            style={{ cursor: "pointer" }}
+            rel="noreferrer"
+          />
           <div className="code-item-content">
             <p>
               I developed my <strong>Patient Dashboard</strong> by converting an
