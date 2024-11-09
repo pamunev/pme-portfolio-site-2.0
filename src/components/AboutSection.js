@@ -1,6 +1,6 @@
 import React from "react";
 import pme from "../assets/images/pablo-profile-pic-resized.jpg";
-import resume from "../assets/images/se2-pablo-munoz-evers-resume-july-2024.pdf";
+import resume from "../assets/images/pme-se-resume-november.pdf";
 
 function AboutSection() {
   return (
